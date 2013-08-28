@@ -1,7 +1,7 @@
 try:
-    from cStringIO import StringIO
+    from io import StringIO
 except ImportError:
-    from StringIO import StringIO
+    from io import StringIO
 
 class BufferedReader(object):
 
